@@ -1,5 +1,10 @@
 package app;
 
+import io.netty.handler.codec.socks.SocksAuthRequest;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int glass;
@@ -39,5 +44,12 @@ public class Main {
         System.out.println(tip3);
         System.out.println(tip4);
         System.out.println(tip5);
+
+
+        public static Main name1(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is your name?");
+        String name = input.toString();
+        System.out.println(name);
         }
 }
